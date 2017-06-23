@@ -2,21 +2,23 @@
 
 ### 1. Ensure the objective of the website before making
 
-It's kind of tricky because this rule can be used in nearly everywhere. For a person who want to learn to make a website, will often get into the traps of CSS: they want to use different kinds of special effects in their website and ignore whether they fit the final objective or not.
+It's kind of tricky because this rule can be used in nearly everywhere. For people who want to learn how to make a website, will often get into the traps of CSS: too eager to use special effects in their website and ignore whether those effects fit the final objective or not.
 
-Often, this action will lead to a bad end: the magnificent effects they persuade will become a distraction while reading. Therefore, first we have to ensure the objective of the website.
+Often, this action will lead to a bad end: the magnificent effects cost a lot of time, but resulting to become distractions and lead to bad reading experience.
 
 ### 2. Prototype website for different devices first
 
-For different devices, the webpage will look different in may ways. This is because web developers and designers have made some magic to deal with these conditions: prototyping.
+A single webpage will look different in different devices. This is because web developers and designers have used magic to deal with these conditions: prototyping.
 
-There's many professional prototyping tools on website, [sketch](/www.sketchapp.com) and [adobe XD](http://www.adobe.com/products/experience-design.html?promoid=PYPVQ3HN&mv=other) are definitely good helpers, some pencil-paper-based quick sketches are also fine. I recommend to have the later option because the first one will take you long time to learn. As a beginner, prototyping can help you understand elements arrangement in a much clear and direct way. This will help reduce time cost later on debugging.
+Protyping help those people to touch with abstract website structures directly. Prototyping won't take a lone time, but it will help reduce the debugging risks and make your idea more clear.
+
+There's many professional prototyping tools on website, [sketch](/www.sketchapp.com) and [adobe XD](http://www.adobe.com/products/experience-design.html?promoid=PYPVQ3HN&mv=other) are definitely good helpers, but pencil-paper-based quick sketches are also fine. I recommend to choose the later one because it's quick and easier.
 
 \[pictures\]
 
 ### 3.Use framework in projects
 
-Frameworks are useful "wheels" which can largely improve your working efficiency. Someone may thinks that producing an individual framework during work can be pleasant. But remember, never reproduce the wheels, that's useless especially when you are making a website, unless you have to. Without proper framework, your development will become less efficient and will meet thousands of unexpected problems which really frustrated you.
+Frameworks are useful "wheels" which can largely improve your working efficiency. For different reasons, some people may refuse to use frameworks. But remember, reproducing wheels is useless, unless you have to. Without proper framework, developing process will become less efficient and the result will come up with hundreds of unexpected problems which will frustrate you much.
 
 In contrast, after you finish current projects, studying the framework, or reproducing the framework become useful. It can help you better understanding how the framework and website work.
 
@@ -24,9 +26,9 @@ recommend: [bootstrap 4](https://v4-alpha.getbootstrap.com/)
 
 ### 4.Carefully name DOM elements
 
-Tell a joke, in old China, poor people always give name casually to their children such as "Ergou Wang"\(which first name has the meaning of two dogs\). They believe that this can brings good luck into family. However, good luck never fall this way when you are developing. It only causes brain chaos when you searching for this element.
+Tell you a joke, in old China, poor people always give name casually to their children such as "Ergou Wang"\(which first name has the meaning of two dogs\). They believed that this could bring good luck into family. However, good luck never fall this way when you are coding. It only causes brain chaos when you searching for ideal element.
 
-The DOM elements are often connected to CSS. A careful class name can reduce time cost in understanding and searching for proper elements. In the table below, I will show some examples of good names and bad names.
+The DOM elements are often connected to CSS by using classes. A careful class name can reduce time cost in recognition and searching process. In the table below, I will show some examples of good names and bad names.
 
 | Sections of documents | Parts of section | GOOD class name | BAD class name |
 | :--- | :--- | :--- | :--- |
@@ -40,15 +42,13 @@ As you can see, some bad names are really short and don't represent any position
 
 ### 5.Learn CSS pre-processors and Emmet
 
-Once you get familiar with HTML and CSS, it's a good choice for you to learn some other things such as LESS, SCSS\(both for CSS pre-processing\) and Emmet\(type html in an intelligent way\). These tools will make you work in a much simpler way. Sometimes you may find out that it's difficult for you to understand the abstract concepts such as @mixin, it means that you have to spend more time on doing more projects in an original way.
+Once you get familiar with HTML and CSS, it's a good choice for you to learn some other things such as LESS, SCSS\(both for CSS pre-processing\) and Emmet\(type html in an intelligent way\). These tools are based on basic CSS and that means when you find out it's difficult to understand some abstract concepts such as @mixin, you should spend more on projects, making with original CSS.
 
-Once you found out that how complex to do with original codes, you will automatically recognize the advantages of studying these pre-processing languages.
-
-They are born to deal with such conditions.
+Once you found out that how complex to do with the original stuff, you will automatically recognize the advantages of studying these pre-processing languages. At this moment, your studying process will become much easier.
 
 ### 6.Add comments
 
-According to some recent researches, no matter how your are familiar with your personal codes, you will have less impressions after 6 weeks. This means you will forget the logic inside your code after 6 weeks. Therefore adding comments are **really really important **for both yourself and others.
+According to a recent research, no matter how your are familiar with your personal codes, you will have less impressions after 6 weeks. Therefore adding comments are **really really important **for both yourself and others.
 
 A good comments can implement a module, a special functionality or a variable in a few words others can be misleading. To study how to write a good comment, I recommend that you can write comments in this way:
 
@@ -67,7 +67,7 @@ function collideCheck(snakePos, FoodPos) {
 
 ### 7.Abstract common styles from CSS into variables and classes
 
-Have you ever met such condition? You want to refresh a color into another color in CSS but the color is everywhere inside this file. So you keep searching and searching to the end of the document. That's idotic, complex and time-consuming! The best way to deal with this condition is to abstract those styles into CSS variables or classes, use them directly in HTML file. For example:
+Have you ever met such condition? You want to refresh a color into another color in CSS but the color is everywhere inside this file. So you keep searching and searching until the end of the document. That's idotic, complex and time-consuming! The best way to deal with this condition is to abstract those styles into CSS variables or classes, use them directly in HTML file. For example:
 
 ```html
 ...
@@ -138,7 +138,7 @@ You can find detailed CSS coding standard [here.](https://make.wordpress.org/cor
 
 ### 9.Do cross-browser tests
 
-Well, many websites are seemed to be fixed in style in different browsers but actually they are not. Different companies have different methods to resolve HTML file, box model and JavaScript file and make it work properly. However, some CSS attributes are quite different in different browsers. Some of them needed to act prefix while others may never work. It's **really important** to test your website in different browsers. 
+Well, many websites are seemed to be fixed in style in different browsers but actually they are not. Different companies have different methods to resolve HTML file, box model and JavaScript file and make it work properly. However, some CSS attributes are quite different in different browsers. Some of them are prefix-needed while others may never work properly. It's **really important** to test your website in different browsers. 
 
 However, if you are using a framework in your website, you may pass the browser test easily because all the published framework are being test in different browsers.
 
